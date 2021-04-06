@@ -1,14 +1,20 @@
 <template>
   <div class="authentication">
-    <div flat class="auth-card">
+    <top-bar />
+    {{ boxSizes }}
+    <div flat class="auth-card" id="authy">
       <router-view />
     </div>
   </div>
 </template>
 
 <script>
+import TopBar from "@/components/public/Topbar.vue";
 export default {
   name: "authentication",
+  components: {
+    "top-bar": TopBar,
+  },
 };
 </script>
 
@@ -18,8 +24,8 @@ export default {
   max-height: 350px;
   background: linear-gradient(
     166.08deg,
-    rgba(229, 229, 229, 0.53) 9.95%,
-    rgba(251, 195, 52, 0.4) 95.21%
+    rgba(229, 229, 229, 0.384) 9.95%,
+    rgba(251, 195, 52, 0.288) 95.21%
   );
   z-index: 2;
   backdrop-filter: blur(3rem);
@@ -35,5 +41,12 @@ export default {
   right: 0;
   border-radius: 20px;
   box-shadow: 3px 5px 0px #fec534;
+}
+.auth-card:hover{
+  background: linear-gradient(
+    16.08deg,
+    rgba(229, 229, 229, 0.53) 9.95%,
+    rgba(251, 195, 52, 0.185) 95.21%
+  );
 }
 </style>
