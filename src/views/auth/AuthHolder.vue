@@ -1,7 +1,6 @@
 <template>
   <div class="authentication">
     <top-bar />
-    {{ boxSizes }}
     <div flat class="auth-card" id="authy">
       <router-view />
     </div>
@@ -20,8 +19,8 @@ export default {
 
 <style scoped>
 .auth-card {
-  max-width: 420px;
   max-height: 350px;
+  max-width: 420px;
   background: linear-gradient(
     166.08deg,
     rgba(229, 229, 229, 0.384) 9.95%,

@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Main from "../views/dashboard/Main.vue";
 import Auth from "../views/auth/AuthHolder.vue";
 import Login from "../views/auth/Login.vue";
+import Register from "../views/auth/Register.vue";
 
 Vue.use(VueRouter);
 
@@ -11,7 +12,15 @@ const routes = [
     path: "/",
     name: "Main",
     component: Main,
-    redirect: '/auth/login'
+    redirect: "/auth/login",
+  },
+  {
+    path: "/register",
+    name: "register",
+    component: Register,
+    meta: {
+      title: "Register your place",
+    },
   },
   {
     path: "/auth/",
