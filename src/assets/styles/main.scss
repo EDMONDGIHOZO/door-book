@@ -23,6 +23,9 @@
   padding: 10px;
 }
 .form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: base.$primary;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -38,7 +41,8 @@
 }
 
 #authy {
-  
+  margin: auto 4%;
+
   @media #{base.$mq-medium} {
     margin: 0 10%;
   }
@@ -47,4 +51,7 @@
     margin: auto;
   }
 
+  @media #{base.$mq-xlarge} {
+    margin: 12 18%;
+  }
 }
