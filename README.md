@@ -1,24 +1,8 @@
 # door-book
 
-## Project setup
-```
-yarn install
-```
+##Features
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* view the statistics of visitors
+* view the visitor's verified identity
+* add updates on the venue's wall which is visible in users application
+* register the tenants on the venue's profile
