@@ -1,6 +1,6 @@
 # door-book
 
-##Features
+## Features
 
 * view the statistics of visitors
 * view the visitor's verified identity
