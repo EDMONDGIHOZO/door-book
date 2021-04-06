@@ -32,7 +32,7 @@ export default {
   backdrop-filter: opacity(20%);
   padding: 30px;
   box-sizing: border-box;
-  margin: auto;
+  margin:auto;
   position: absolute;
   top: 0;
   left: 0;
@@ -41,6 +41,7 @@ export default {
   border-radius: 20px;
   box-shadow: 3px 5px 0px #fec534;
 }
+
 .auth-card:hover{
   background: linear-gradient(
     16.08deg,

@@ -36,3 +36,19 @@
     ),
     url("../images/radisson.jpeg");
 }
+
+#authy {
+  margin: auto 4%;
+
+  @media #{base.$mq-medium} {
+    margin: 0 10%;
+  }
+
+  @media #{base.$mq-large} {
+    margin: 1 12%;
+  }
+
+  @media #{base.$mq-xlarge} {
+    margin: 12 18%;
+  }
+}
