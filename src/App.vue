@@ -29,5 +29,11 @@ export default {
   box-sizing: border-box;
   margin: auto;
   font-family: "Nunito", sans-serif;
+  background-color: #FEC534;
+  background-image: url('assets/authbg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 </style>

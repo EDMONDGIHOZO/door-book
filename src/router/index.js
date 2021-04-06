@@ -11,6 +11,7 @@ const routes = [
     path: "/",
     name: "Main",
     component: Main,
+    redirect: '/auth/login'
   },
   {
     path: "/auth/",
