@@ -14,7 +14,7 @@
       </v-col>
       <v-col cols="12" md="7">
         <div class="comp">
-          <h4>Welcome to doorbook!</h4>
+          <h4 class="text-center">Register your Place</h4>
         </div>
       </v-col>
     </v-row>
@@ -31,19 +31,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.logo {
-  animation: rotate 3.5s linear infinite;
-}
-
-.logo:hover{
-  animation: none;
-}
-
-@keyframes rotate {
-  to {
-    transform: rotate(360deg);
-  }
-}
-</style>
